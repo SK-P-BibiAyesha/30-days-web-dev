@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  color: rgb(164, 253, 55);
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Vertical center */
+  align-items: center;     /* Horizontal center */
+  height: 100vh;
+  margin: 0;
+
+}
+
+h1 {
+
+  color: rgb(244, 14, 110);
+
+}
+
+.card {
+  width: 300px; /* 1000px is very wide */
+  padding: 20px;
+  border: 2px solid rgba(107, 6, 151, 0.863); 
+  border-radius: 10px;
+  background-color: seashell;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+
+  margin-top: 15px;
+  padding: 10px 20px;
+   border: 2px solid rgba(151, 6, 136, 0.908);
+
+}
+
+
+
+#result {
+  margin-top: 15px;
+  border-radius: 0px;
+
+}
